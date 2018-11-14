@@ -1,0 +1,101 @@
+.mainField{
+   display: block;
+   margin: auto;
+   padding-bottom: 1vh;
+   width: 110vh;
+   border: 1vh solid #CDCECE;
+   border-radius: 2vh;
+   background-image: linear-gradient(45deg, #DCECED, #EAEEEE);
+}
+
+.formField {
+  border-bottom: 0.5vh solid #6F8F8F;
+  border-radius: 2vh;
+}
+
+input[type='text'] {
+  width: 80vh;
+  font-size: 2vh;
+}
+
+.inputField {
+  width: 70vh;
+  margin: 3vh;
+  display: inline-block;
+}
+
+.formSubmitButton {
+  float: right;
+  margin: 3vh;
+  padding: 0vh;
+  width: 7vh;
+  height: 4vh;
+  line-height: 2vh;
+  font-size: 2vh;
+  border-radius: 2vh;
+  color:#EAEEEE;
+  text-align: center;  
+  background-image: linear-gradient(#49AAF1, #6349F1);
+}
+
+.tasksList {
+  padding: 0vh;
+  list-style-type: none;
+}
+
+.taskMainField {
+  padding: 1vh;
+  min-height: 7vh;
+  min-width: 90vh;
+  margin: 1vh;
+  border: 0.5vh solid #6F8F8F;
+  border-radius: 1vh;
+}
+
+.filterButtonsField {
+  display: block;
+  margin: 2vh auto 2vh auto;
+  width: 30vh;
+  font-size: 1.5vh;
+}
+
+.toggleButton {
+  float: right;
+  color: black;
+  padding: 0vh;
+  width: 4vh;
+  height: 3vh;
+  border-radius: 1vh;
+  text-align: center;  
+  line-height: 2vh;
+  font-size: 2vh;
+  background-image: linear-gradient(#FEAF40, #FE9501);
+}
+
+.taskRemoveButton {
+  float: right;
+  padding: 0vh;
+  width: 4vh;
+  height: 3vh;
+  line-height: 2vh;
+  font-size: 2vh;
+  text-align: center;  
+  color: black;
+  border-radius: 1vh;
+  background-image: linear-gradient(#FE1010, #FE4040);
+}
+
+.filterButton {
+  padding: 0vh;
+  width: 8vh;
+  height: 3vh;
+  line-height: 2vh;
+  font-size: 1.5vh;
+  text-align: center;  
+  color: white;
+  border-radius: 1vh;
+  background-image: linear-gradient(#000000, #544C1C);
+}
+
+/* Structure of toDoList is pretty simple so no modern feautures were used, floats and padding + marging seemed to be enough. */
+
